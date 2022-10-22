@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="#484b54"
+    android:textColor="@color/sideTextColor">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дата окончания"
+        android:textColor="@color/sideTextColor"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/newEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@null"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/white"
+        android:hint="Введите дату"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="Затраченный бюджет"
+        android:textColor="@color/sideTextColor"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/newBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:background="@null"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/white"
+        android:hint="Введите сумму"
+        />
+    <TextView
+        android:id="@+id/textFinalImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+
+        android:text="Фото костюма"
+        android:textColor="@color/sideTextColor"
+        android:textSize="18sp"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageFinal"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@android:color/white"
+        />
+     <CalendarView
+         android:id="@+id/scalendarView"
+         android:layout_width="wrap_content"
+         android:layout_height="300dp"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:background="#484b54"
+         android:visibility = "visible"
+         />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+         android:id="@+id/newFinalImgfab"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+           android:layout_marginTop="185dp"
+         android:layout_alignParentRight="true"
+         android:backgroundTint="@color/buttonColor"
+         android:src="@drawable/ic_baseline_add"
+         />
+    <Button
+        android:id="@+id/SaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="32sp"
+        android:layout_marginTop="300dp"
+        android:textSize="12sp"
+        android:background="@android:color/transparent"
+        android:text="Save"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+
+
+
+
+</RelativeLayout>

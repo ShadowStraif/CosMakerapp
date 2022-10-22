@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#363942">
+
+
+    <TextView
+        android:id="@+id/supportStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дата начала : "
+        android:textColor="@color/sideTextColor"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="14dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/supportEndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дата окончания : "
+        android:textColor="@color/sideTextColor"
+        android:layout_below="@id/supportStartDate"
+        android:layout_marginTop="-4dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginBottom="14dp"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/supportBudget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Затраченный бюджет : "
+        android:textColor="@color/sideTextColor"
+        android:layout_below="@id/supportEndDate"
+        android:layout_marginTop="-4dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginBottom="14dp"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/finalCosImage"
+        android:adjustViewBounds="true"
+        android:layout_height="600dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/supportBudget"
+        android:layout_width="350dp"
+
+        />
+
+
+</RelativeLayout>

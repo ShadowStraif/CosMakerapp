@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/costumemenu"
+        android:enabled="true"
+        android:icon="@drawable/menu_costume1"
+
+        android:title=" "/>
+    <item
+        android:id="@+id/notemenu"
+        android:enabled="true"
+        android:icon="@drawable/ic_create_black_24dp"
+
+        android:title=" "/>
+    <item
+        android:id="@+id/piscmenu"
+        android:enabled="true"
+        android:icon="@drawable/ic_filter_black_24dp"
+        android:title=" "/>
+
+</menu>

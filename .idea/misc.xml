@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CosMaker/app/src/main/res/layout/activity_cos_layout.xml" value="0.3120471014492754" />
+        <entry key="..\:/CosMaker/app/src/main/res/layout/activity_costume.xml" value="0.25" />
+        <entry key="..\:/CosMaker/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/CosMaker/app/src/main/res/layout/activity_new_costume.xml" value="0.25" />
+        <entry key="..\:/CosMaker/app/src/main/res/layout/activity_new_detail.xml" value="0.1" />
+        <entry key="..\:/CosMaker/app/src/main/res/layout/activity_splash.xml" value="0.1595744680851064" />
+        <entry key="..\:/CosMaker/app/src/main/res/layout/add_supportinfo.xml" value="0.1" />
+        <entry key="..\:/CosMaker/app/src/main/res/layout/costume_fragment.xml" value="0.1" />
+        <entry key="..\:/CosMaker/app/src/main/res/layout/details_layout.xml" value="0.20199275362318841" />
+        <entry key="..\:/CosMaker/app/src/main/res/layout/edit_character_layout.xml" value="0.1" />
+        <entry key="..\:/CosMaker/app/src/main/res/layout/edit_detail_layout.xml" value="0.1595744680851064" />
+        <entry key="..\:/CosMaker/app/src/main/res/layout/image_detail_layout.xml" value="0.1595744680851064" />
+        <entry key="..\:/CosMaker/app/src/main/res/layout/image_fragment.xml" value="0.1595744680851064" />
+        <entry key="..\:/CosMaker/app/src/main/res/layout/images_layout.xml" value="0.1595744680851064" />
+        <entry key="..\:/CosMaker/app/src/main/res/layout/new_detail_layout.xml" value="0.1595744680851064" />
+        <entry key="..\:/CosMaker/app/src/main/res/layout/note_fragment.xml" value="0.1" />
+        <entry key="..\:/CosMaker/app/src/main/res/layout/note_layout.xml" value="0.1595744680851064" />
+        <entry key="..\:/CosMaker/app/src/main/res/layout/support_fragment.xml" value="0.1" />
+        <entry key="..\:/CosMaker/app/src/main/res/menu/menu.xml" value="0.328125" />
+        <entry key="..\:/CosMaker/app/src/main/res/menu/menu2.xml" value="0.328125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

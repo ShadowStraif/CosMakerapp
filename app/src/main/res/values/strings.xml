@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CosMaker</string>
+
+    <string-array name="Types">
+        <item>Сделать</item>
+        <item>Купить</item>
+    </string-array>
+
+    <string-array name="Levels">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+</resources>

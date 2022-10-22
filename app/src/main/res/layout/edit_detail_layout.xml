@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="#484b54">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Название детали"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/sideTextColor"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:id="@+id/editDetailName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@null"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/white"
+        android:hint="Введите название детали"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите сложность"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/sideTextColor"
+        android:textSize="18sp"
+        />
+
+    <Spinner
+        android:id="@+id/editprioritySpin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="300dp"
+        android:entries="@array/Levels"
+        />
+
+    <TextView
+        android:id="@+id/editpriorityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="сложность: "
+        android:layout_marginTop="110dp"
+        android:textColor="@color/sideTextColor"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите тип"
+        android:layout_marginTop="140dp"
+        android:textColor="@color/sideTextColor"
+        android:textSize="18sp"
+        />
+    <Spinner
+        android:id="@+id/edittypeSpin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="270dp"
+        android:entries="@array/Types"
+        />
+    <TextView
+        android:id="@+id/edittypeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="тип : "
+        android:layout_marginTop="170dp"
+        android:textColor="@color/sideTextColor"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/editSaveDetailButton"
+        android:layout_width="wrap_content"
+        android:layout_height="32sp"
+        android:layout_marginTop="200dp"
+        android:textSize="12sp"
+        android:background="@android:color/transparent"
+        android:text="Сохранить изменения"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+
+    </RelativeLayout>

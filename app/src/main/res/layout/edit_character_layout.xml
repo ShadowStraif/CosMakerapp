@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="#484b54"
+    android:textColor="@android:color/white">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="400dp"
+    android:text="Имя персонажа"
+    android:textColor="@color/sideTextColor"
+    android:textSize="18sp"
+    />
+
+    <EditText
+    android:id="@+id/editCosName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:background="@null"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+    android:textColor="@android:color/white"
+    android:hint="Введите имя персонажа"
+    />
+    <TextView
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="65dp"
+    android:text="Фандом"
+    android:textColor="@color/sideTextColor"
+    android:textSize="18sp"
+        />
+
+    <EditText
+    android:id="@+id/editFandomName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="95dp"
+    android:background="@null"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+    android:textColor="@android:color/white"
+    android:hint="Введите название фандома" />
+    <TextView
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="127dp"
+    android:text="Дата начала работы"
+    android:textColor="@color/sideTextColor"
+    android:textSize="18sp"
+        />
+
+    <EditText
+    android:id="@+id/editStartDate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="157dp"
+    android:background="@null"
+    android:focusable="false"
+    android:textColor="@android:color/white"
+    android:hint="Введите дату начала работы"
+    />
+
+    <View
+    android:layout_width="match_parent"
+        android:layout_height="2dp"
+    android:background="@color/sideTextColor"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginTop="190dp"/>
+
+    <ImageView
+        android:id="@+id/editImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/editImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="32sp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="235dp"
+        android:textSize="12sp"
+        android:background="@android:color/transparent"
+        android:text="Изменить изображение"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/editCosSaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="32sp"
+        android:textSize="12sp"
+        android:layout_marginTop="300dp"
+        android:background="@android:color/transparent"
+        android:text="Сохранить"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+
+ <CalendarView
+     android:id="@+id/editcalendarView"
+     android:layout_width="wrap_content"
+     android:layout_height="300dp"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+     android:background="#484b54"
+     android:visibility = "visible"
+     />
+
+  </RelativeLayout>

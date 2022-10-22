@@ -1,0 +1,79 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginHorizontal="18dp"
+    android:layout_marginVertical="8dp"
+    android:background="#484b54"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#484b54"
+        >
+        <TextView
+            android:id="@+id/layoutDetailName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="16sp"
+            android:textColor="@color/sideTextColor"
+            android:text="Название"
+            />
+
+        <TextView
+            android:id="@+id/layoutDetailType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/sideTextColor"
+            android:text="Название"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="182dp"
+            android:textColor="@color/sideTextColor"
+            android:textSize="12sp"
+            android:text="Сложность: "
+            />
+        <TextView
+            android:id="@+id/layoutDetailLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="270dp"
+            android:textSize="12sp"
+            android:textColor="@color/sideTextColor"
+
+            />
+
+        <CheckBox
+
+            android:id="@+id/detailCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+
+            android:paddingStart="8dp"
+            android:buttonTint="@color/sideTextColor"
+            android:textColor="@color/sideTextColor"
+            android:text=""
+           />
+
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

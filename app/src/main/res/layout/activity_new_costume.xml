@@ -1,0 +1,247 @@
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:padding="16dp"
+     android:background="#484b54"
+     android:textColor="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:text="Имя персонажа"
+        android:textColor="@color/sideTextColor"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/newCosName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@null"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/white"
+        android:hint="Введите имя персонажа"
+
+
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="Фандом"
+        android:textColor="@color/sideTextColor"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/newFandomName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:background="@null"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/white"
+        android:hint="Введите название фандома"
+
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="127dp"
+        android:text="Дата начала"
+        android:textColor="@color/sideTextColor"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/newStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="157dp"
+        android:background="@null"
+        android:focusable="false"
+        android:textColor="@android:color/white"
+        android:hint="Введите дату начала работы"
+
+        />
+
+     <View
+         android:layout_width="match_parent"
+
+         android:layout_height="2dp"
+         android:background="@color/sideTextColor"
+         android:layout_marginLeft="4dp"
+         android:layout_marginRight="4dp"
+         android:layout_marginTop="190dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Название детали"
+        android:layout_marginTop="205dp"
+        android:textColor="@color/sideTextColor"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:id="@+id/newDetailName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:background="@null"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/white"
+        android:hint="Введите название детали"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите уровень сложности"
+        android:layout_marginTop="255dp"
+        android:textColor="@color/sideTextColor"
+        android:textSize="18sp"
+        />
+
+    <Spinner
+        android:id="@+id/prioritySpin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="255dp"
+        android:layout_marginLeft="300dp"
+        android:entries="@array/Levels"
+        />
+
+    <TextView
+        android:id="@+id/priorityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="сложность: "
+        android:layout_marginTop="280dp"
+        android:textColor="@color/sideTextColor"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите тип"
+        android:layout_marginTop="310dp"
+        android:textColor="@color/sideTextColor"
+        android:textSize="18sp"
+        />
+    <Spinner
+        android:id="@+id/typeSpin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="270dp"
+        android:entries="@array/Types"
+        />
+    <TextView
+        android:id="@+id/typeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="тип : "
+        android:layout_marginTop="335dp"
+        android:textColor="@color/sideTextColor"
+        android:textSize="18sp"
+        />
+    <Button
+        android:id="@+id/newCostumeSaveDetailButton"
+        android:layout_width="wrap_content"
+        android:layout_height="32sp"
+        android:layout_marginTop="365dp"
+        android:textSize="12sp"
+        android:background="@android:color/transparent"
+        android:text="Добавить деталь"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+     <View
+         android:layout_width="match_parent"
+
+         android:layout_height="2dp"
+         android:background="@color/sideTextColor"
+         android:layout_marginLeft="4dp"
+         android:layout_marginRight="4dp"
+         android:layout_marginTop="405dp"/>
+
+     <CalendarView
+         android:id="@+id/calendarView"
+         android:layout_width="wrap_content"
+         android:layout_height="300dp"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:background="#484b54"
+         android:visibility = "visible"
+         />
+
+   <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/detailsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/newCostumeSaveDetailButton"
+        android:textColor="@color/sideTextColor"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:nestedScrollingEnabled="true"
+        />
+
+     <TextView
+         android:id="@+id/textimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailsRecyclerView"
+        android:layout_marginTop="17dp"
+        android:text="Изображение персонажа"
+        android:textColor="@color/sideTextColor"
+        android:textSize="18sp"
+        />
+
+     <ImageView
+         android:id="@+id/imagenew"
+         android:layout_width="60dp"
+         android:layout_height="60dp"
+         android:layout_marginTop="16dp"
+         android:layout_below="@id/textimg"
+         android:layout_marginBottom="16dp"
+         app:layout_constraintBottom_toBottomOf="parent"
+         android:textColor="@android:color/white"
+         />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+         android:id="@+id/newReffab"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/detailsRecyclerView"
+         android:layout_marginTop="1dp"
+         android:layout_alignParentRight="true"
+         android:backgroundTint="@color/buttonColor"
+         android:src="@drawable/ic_baseline_add"
+         />
+     <Button
+         android:id="@+id/newCostumeSaveButton"
+         android:layout_width="wrap_content"
+         android:layout_height="32sp"
+         android:layout_below="@id/imagenew"
+         android:textSize="12sp"
+         android:layout_marginTop="15dp"
+
+         android:background="@android:color/transparent"
+         android:text="Сохранить"
+         android:textAllCaps="true"
+         android:textColor="@android:color/white" />
+
+
+
+
+
+
+ </RelativeLayout>
+ </ScrollView>
