@@ -119,7 +119,7 @@ public class AddNewCostume extends BottomSheetDialogFragment {
         level.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                //String item2 =(String)parent.getItemAtPosition(position);
+
                 it2 = Integer.parseInt(parent.getItemAtPosition(position).toString());
                 levelText.setText(String.valueOf(it2));
             }
@@ -149,7 +149,7 @@ public class AddNewCostume extends BottomSheetDialogFragment {
             @Override
             public void onSelectedDayChange(CalendarView view, int year, int month,
                                             int dayOfMonth) {
-                // TODO Auto-generated method stub
+
 
                 editDate.setText(" " + dayOfMonth +" . " + (month+1) + " . " + year);
                 calender.setVisibility(View.INVISIBLE);

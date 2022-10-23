@@ -92,7 +92,7 @@ public class EditCostume extends BottomSheetDialogFragment {
             @Override
             public void onSelectedDayChange(CalendarView view, int year, int month,
                                             int dayOfMonth) {
-                // TODO Auto-generated method stub
+
 
                 editDate.setText(" " + dayOfMonth +" / " + (month+1) + " / " + year);
                 calender.setVisibility(View.INVISIBLE);

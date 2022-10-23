@@ -102,7 +102,7 @@ public class AddSupportInfo extends BottomSheetDialogFragment {
             @Override
             public void onSelectedDayChange(CalendarView view, int year, int month,
                                             int dayOfMonth) {
-                // TODO Auto-generated method stub
+
 
                 enddate.setText(" " + dayOfMonth +" . " + (month+1) + " . " + year);
                 calender.setVisibility(View.INVISIBLE);
